@@ -1,0 +1,15 @@
+php artisan crud:generate Groups
+--fields="name#string;owner_id#integer;user_id#integer"
+--foreign-keys="owner_id#id#users"
+--relationships="users#belongsToMany#App\User"
+--view-path="admin/groups"
+--controller-namespace=groups
+
+
+
+php artisan crud:view Groups --fields="name#string" --view-path="admin"
+
+
+
+
+php artisan crud:controller Groups --crud-name=Groups --model-name=Group
