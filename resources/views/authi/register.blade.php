@@ -212,7 +212,7 @@
                                                 <div class="panel-heading">
                                                     <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th-list">
-                            </span>BUSINESS DETAILS</a>
+                            </span>ADDITIONAL INFO</a>
                         </h4>
                                                 </div>
                                                 <div id="collapseTwo" class="panel-collapse collapse">

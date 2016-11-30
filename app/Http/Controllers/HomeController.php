@@ -26,6 +26,10 @@ class HomeController extends Controller
     
     public function homeindex()
     {
+        if (Auth::user())
+        {
+            return redirect('/dashboard');
+        }
         return view('landing.home');
     }
 	
