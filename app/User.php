@@ -56,7 +56,11 @@ class User extends Authenticatable
 		return $this->belongsToMany('App\Group','group_user', 
        'user_id','group_id');
 	}
-	
+	    public function teams()
+	{
+		return $this->belongsToMany('App\Group','group_user', 
+       'user_id','group_id');
+	}
 
 	    public function setPasswordAttribute($password)
     {

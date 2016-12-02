@@ -13,6 +13,7 @@ return array(
     'CreateGroupsTable' => $baseDir . '/database/migrations/2016_09_11_084507_create_groups_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreatePhoneVerificationTable' => $baseDir . '/database/migrations/2016_09_09_010131_Create_phone_verification_table.php',
+    'CreateTeamUser' => $baseDir . '/database/migrations/2016_12_02_115530_create_team_user.php',
     'CreateUserUserPivotTable' => $baseDir . '/database/migrations/2016_09_17_225444_create_user_user_pivot_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'CreatingTeamsTable' => $baseDir . '/database/migrations/2016_12_01_145142_creating-teams-table.php',
