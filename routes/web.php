@@ -57,12 +57,14 @@ Route::get('pendingverification', 'UsersController@notverified');
 
 Route::group(['middleware' => ['auth', 'verified'] ], function () {
     Route::post('groups/adduser', 'GroupsController@attachuser');
-     Route::post('groups/removeuser', 'GroupsController@removeuser');
+    Route::post('teams/adduser', 'TeamsController@attachuser');
+    Route::post('groups/removeuser', 'GroupsController@removeuser');
     Route::get('dashboard', 'HomeController@index');
 
     Route::get('profil/{id}', 'UsersController@edit');
     Route::PUT('profil/update/{id}', 'UsersController@Update')->name('profil/update');
     Route::post('groups/{id}', 'GroupsController@destroy');
+    Route::post('teams/{id}', 'TeamsController@destroy');
     
     Route::resource('groups', 'GroupsController');
     Route::resource('teams', 'TeamsController');

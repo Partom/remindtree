@@ -133,7 +133,7 @@ class GroupsController extends Controller
         }
         Session::flash('flash_message', 'Group updated!');
         
-        return response()->json($group) ;
+        return redirect('groups');
     }
     
     /**

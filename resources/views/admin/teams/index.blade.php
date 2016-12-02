@@ -89,7 +89,7 @@
                                                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                                       <h4 class="modal-title" id="myModalLabel">Create a new team</h4>
                                                     </div>
-                                                    <div class="modal-body">
+                                                    <div class="modal-body" id="myModalBody">
                                                   
                                                           <div class="form-team">
                                                             <div class="col-md-12 m-b-20">
@@ -149,7 +149,10 @@ if ($('#tablebody').children().length == 0){
                 }
                 else
                 {
-                    console.log('add name')
+                    // console.log('add name')
+                    var text = '<p class="alert alert-danger">Name can not be empty!</p>';
+
+                    $('#myModalBody').prepend(text);
                 }
                 
                
