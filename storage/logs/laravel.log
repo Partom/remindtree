@@ -3175,3 +3175,31 @@ Stack trace:
 =======
 >>>>>>> af7e55592e938e79fbf1d132a0304f1282149294
 >>>>>>> 1254b295c3c3194195c13271b14f5fbecf813f53
+[2016-12-02 11:54:34] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "make" is not defined.
+
+Did you mean one of these?
+    make:migration:schema
+    make:migration:pivot
+    make:notification
+    make:controller
+    make:middleware
+    make:migration
+    make:listener
+    make:provider
+    make:request
+    make:command
+    make:seeder
+    make:policy
+    make:event
+    make:model
+    make:test
+    make:seed
+    make:mail
+    make:auth
+    make:job in /home/ashir/projects/gitprojects/remindtree/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /home/ashir/projects/gitprojects/remindtree/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('make')
+#1 /home/ashir/projects/gitprojects/remindtree/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/ashir/projects/gitprojects/remindtree/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/ashir/projects/gitprojects/remindtree/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
