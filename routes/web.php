@@ -65,6 +65,7 @@ Route::group(['middleware' => ['auth', 'verified'] ], function () {
     Route::post('groups/{id}', 'GroupsController@destroy');
     
     Route::resource('groups', 'GroupsController');
+    Route::resource('teams', 'TeamsController');
     
     Route::get('ingroups', 'GroupsController@ingroups');
     Route::post('groups/removeuser', 'GroupsController@removeuser');
