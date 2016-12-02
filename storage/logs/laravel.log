@@ -1952,6 +1952,7 @@ Stack trace:
 #45 /home/ashir/projects/gitprojects/remindtree/server.php(21): require_once('/home/ashir/pro...')
 #46 {main}  
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2016-12-01 14:49:43] local.ERROR: Symfony\Component\Console\Exception\RuntimeException: Not enough arguments (missing: "name"). in /home/ashir/projects/gitprojects/remindtree/vendor/symfony/console/Input/Input.php:83
 Stack trace:
 #0 /home/ashir/projects/gitprojects/remindtree/vendor/symfony/console/Command/Command.php(249): Symfony\Component\Console\Input\Input->validate()
@@ -2018,6 +2019,8 @@ Stack trace:
 #39 /home/ashir/projects/gitprojects/remindtree/server.php(21): require_once('/home/ashir/pro...')
 #40 {main}  
 =======
+=======
+>>>>>>> af7e55592e938e79fbf1d132a0304f1282149294
 [2016-12-01 14:24:16] production.ERROR: PDOException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) in /home/vampire/laravel/remindtree/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:119
 Stack trace:
 #0 /home/vampire/laravel/remindtree/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(119): PDO->__construct('mysql:host=loca...', 'forge', '', Array)
@@ -2191,4 +2194,7 @@ Stack trace:
 #10 /home/vampire/laravel/remindtree/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
 #11 /home/vampire/laravel/remindtree/server.php(21): require_once('/home/vampire/l...')
 #12 {main}  
+<<<<<<< HEAD
+>>>>>>> af7e55592e938e79fbf1d132a0304f1282149294
+=======
 >>>>>>> af7e55592e938e79fbf1d132a0304f1282149294
