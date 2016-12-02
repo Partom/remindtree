@@ -1,0 +1,9 @@
+>> copy .env.example to .env
+>> create a database and smtp account 
+>> update env file
+  > mysql configurations & server details
+  > smtp configurations for email
+>> run the following console commands
+  > php artisan key:generate 
+  > php artisan migrate
+  > php artisan world-countries:populate

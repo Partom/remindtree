@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AddAvatarToUsers' => $baseDir . '/database/migrations/2016_09_11_153419_add_avatar_to_users.php',
+    'AddVerificationToUserTable' => $baseDir . '/database/migrations/2016_09_13_070520_add_verification_to_user_table.php',
     'AddVerificationToUsersTable' => $baseDir . '/database/2016_09_08_142733_add_verification_to_users_table.php',
     'CreateGroupUserPivotTable' => $baseDir . '/database/migrations/2016_09_11_084527_create_group_user_pivot_table.php',
     'CreateGroupsTable' => $baseDir . '/database/migrations/2016_09_11_084507_create_groups_table.php',
@@ -14,8 +15,7 @@ return array(
     'CreatePhoneVerificationTable' => $baseDir . '/database/migrations/2016_09_09_010131_Create_phone_verification_table.php',
     'CreateUserUserPivotTable' => $baseDir . '/database/migrations/2016_09_17_225444_create_user_user_pivot_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
-    'CreatingCountriesTable' => $baseDir . '/database/migrations/2016_11_28_141756_creating_countries_table.php',
-    'CreatingStatesTable' => $baseDir . '/database/migrations/2016_11_28_141815_creating_states_table.php',
+    'CreatingTeamsTable' => $baseDir . '/database/migrations/2016_12_01_145142_creating-teams-table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',

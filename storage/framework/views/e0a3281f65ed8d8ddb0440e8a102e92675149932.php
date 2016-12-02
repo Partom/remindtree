@@ -44,8 +44,12 @@
                   <li class="nav-small-cap m-t-10">--- Main Menu</li>
                   <li><a href="javascript:void(0)" class="waves-effect"><i class="fa fa-dashboard fa-fw" aria-hidden="true"></i> <span class="hide-menu">Dashboard</span></a></li>
 
-                  
+                  <li>
+                     <a href="<?php echo e(url('teams')); ?>" class="waves-effect"><i data-icon="" class="fa fa-users fa-fw"></i> <span class="hide-menu">Teams</span></a>
                   </li>
+
+                  
+
 
                   <li>
                      <a href="javascript:void(0)" class="waves-effect"><i data-icon="" class="fa fa-users fa-fw"></i> <span class="hide-menu">Manage Groups<span class="fa arrow"></span></span></a>
@@ -54,11 +58,19 @@
                         <li><a href="<?php echo e(url('ingroups')); ?>">Member</a></li>
                      </ul>
                   </li>
-                  <li><a href="<?php echo e(url('contacts')); ?>" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i> <span class="hide-menu">Contacts
-                      
-                      
-                      </span></a>
 
+                <!-- <li> <a href="<?php echo e(url('contacts')); ?>" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i> <span class="hide-menu">Contacts
+                      
+                       <span class="fa arrow"></span><span class="label label-rouded label-danger pull-right">6</span> 
+                      </span></a> -->
+
+                   <li>
+                     <a href="javascript:void(0)" class="waves-effect"><i data-icon="" class="fa fa-user fa-fw"></i> <span class="hide-menu">Contacts<span class="fa arrow"></span></span></a>
+                      <ul class="nav nav-second-level">
+                        <li><a href="<?php echo e(url('contacts')); ?>"><i class="fa ti-list fa-fw"></i>Contacts</a></li>
+                        <li><a href="javascript:void(0)"><i class="fa icon-user-follow fa-fw"></i>Requests <span class="label label-rouded label-danger pull-right">1</span></a></li>
+                     </ul> 
+                  </li>
 
                   <li>
                      <a href="javascript:void(0)" class="waves-effect"><i data-icon="" class="fa fa-wechat fa-fw"></i> <span class="hide-menu">Reminders<span class="fa arrow"></span><span class="label label-rouded label-danger pull-right">2</span></span></a>
