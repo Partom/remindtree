@@ -25,7 +25,8 @@ Route::get('/contacts', 'ContactController@index');
 
 
 
-
+Route::get('/plivo','HomeController@plivo');
+Route::post('/plivo','HomeController@plivo');
 Route::get('/', 'HomeController@homeindex');
 Route::get('/reset','Auth\ForgotPasswordController@showLinkRequestForm');
 
